@@ -1,0 +1,6 @@
+---
+- name: Create vlan
+  nxos_vlan:
+    vlan_id: "{{ vlan_id }}"
+    name: "{{ vlan_name }}"
+    state: "{{ vlan_state }}"
