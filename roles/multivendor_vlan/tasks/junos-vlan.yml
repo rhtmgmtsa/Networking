@@ -1,6 +1,6 @@
 ---
-- name: Create or remove vlan
-  nxos_vlan:
+- name: Create or vlan
+  junos_vlan:
     vlan_id: "{{ vlan_id }}"
     name: "{{ vlan_name }}"
     state: "{{ vlan_state }}"

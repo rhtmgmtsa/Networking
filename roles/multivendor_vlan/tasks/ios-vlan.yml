@@ -1,5 +1,5 @@
 ---
-- name: Create vlan
+- name: Create or remove vlan
   ios_vlan:
     vlan_id: "{{ vlan_id }}"
     name: "{{ vlan_name }}"

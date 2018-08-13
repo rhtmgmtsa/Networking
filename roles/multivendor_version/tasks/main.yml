@@ -1,0 +1,4 @@
+---
+- include_tasks: "{{ ansible_network_os }}-facts.yml"
+
+- debug: msg="{{ inventory_hostname }}({{ ansible_network_os }}) is running {{ ansible_net_version }}"
