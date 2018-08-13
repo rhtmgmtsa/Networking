@@ -2,7 +2,10 @@
 - hosts: network
   connection: network_cli
   gather_facts: no
-
+#  vars:
+#    - vlan_id: 100
+#    - vlan_name: test100
+#    - vlan_state: present
   tasks:
      - include_role:
          name: multivendor_vlan
